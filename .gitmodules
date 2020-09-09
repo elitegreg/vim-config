@@ -1,0 +1,42 @@
+[submodule "vim/pack/greg/start/vim-airline"]
+	path = vim/pack/greg/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim/pack/greg/start/ctrlp.vim"]
+	path = vim/pack/greg/start/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "vim/pack/greg/start/csv.vim"]
+	path = vim/pack/greg/start/csv.vim
+	url = https://github.com/chrisbra/csv.vim.git
+[submodule "vim/pack/greg/start/minibufexpl.vim"]
+	path = vim/pack/greg/start/minibufexpl.vim
+	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "vim/pack/greg/start/nerdtree"]
+	path = vim/pack/greg/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "vim/pack/greg/start/tagbar"]
+	path = vim/pack/greg/start/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "vim/pack/greg/start/tmuxline.vim"]
+	path = vim/pack/greg/start/tmuxline.vim
+	url = https://github.com/edkolev/tmuxline.vim.git
+[submodule "vim/pack/greg/start/vcscommand.vim"]
+	path = vim/pack/greg/start/vcscommand.vim
+	url = https://github.com/vim-scripts/vcscommand.vim.git
+[submodule "vim/pack/greg/start/vim-airline-themes"]
+	path = vim/pack/greg/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "vim/pack/greg/start/vim-five"]
+	path = vim/pack/greg/start/vim-five
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/pack/greg/start/vim-python-pep8-indent"]
+	path = vim/pack/greg/start/vim-python-pep8-indent
+	url = https://github.com/Vimjas/vim-python-pep8-indent.git
+[submodule "vim/pack/greg/start/a.vim"]
+	path = vim/pack/greg/start/a.vim
+	url = https://github.com/vim-scripts/a.vim.git
+[submodule "vim/pack/greg/start/Conque-Shell"]
+	path = vim/pack/greg/start/Conque-Shell
+	url = https://github.com/lrvick/Conque-Shell.git
+[submodule "vim/pack/greg/start/YouCompleteMe"]
+	path = vim/pack/greg/start/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
