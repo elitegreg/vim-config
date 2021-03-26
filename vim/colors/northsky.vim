@@ -215,3 +215,6 @@ endif
 
 hi User1 guifg=black guibg=#004443 gui=none
 hi User2 ctermfg=darkblue ctermbg=blue cterm=bold guifg=blue guibg=lightblue gui=bold
+
+" Greg: Override for c_error_lines
+hi Error	term=reverse ctermbg=Red ctermfg=White guibg=Red guifg=White

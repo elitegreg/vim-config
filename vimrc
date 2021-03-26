@@ -27,7 +27,7 @@ set showmatch		" Show matching brackets.
 set incsearch		" Incremental search
 set autowrite		" Automatically save before commands like :next and :make
 set hidden              " Hide buffers when they are abandoned
-set mouse=a		" Enable mouse usage (all modes) in terminals
+"set mouse=a		" Enable mouse usage (all modes) in terminals
 set laststatus=2 " Status on regardless of number windows (good for airline)
 
 let g:UseTrueColor = 0
@@ -40,10 +40,10 @@ else
   if &term =~ 'tmux'
     set t_8f=[38;2;%lu;%lu;%lum
     set t_8b=[48;2;%lu;%lu;%lum
-    set termguicolors 
+    set termguicolors
     let g:UseTrueColor = 1
   elseif &term =~ 'xterm-256color' || &term =~ 'screen-256color'
-    set termguicolors 
+    set termguicolors
     let g:UseTrueColor = 1
   endif
 endif
@@ -65,32 +65,12 @@ set ruler
 set tabstop=4
 set shiftwidth=4
 set smarttab
+set smartindent
 set softtabstop=0
 set modeline
 
-set cinoptions=
-  " Line up case label with the switch {}
-  set cinoptions+=:0
-  " align with a case label instead of statement after it
-  set cinoptions+=l1
-  " align class scope declarations with {}
-  set cinoptions+=g0
-  " put function return type declaration up against margin
-  set cinoptions+=t0
-  " indent a continuation 4 characters
-  set cinoptions+=+4
-  " use 4 characters for indenting unclosed parenthesis
-  set cinoptions+=(4
-  set cinoptions+=u4
-  " special handling for when parenthesis is by itself
-  set cinoptions+=U1
-  " search for unclosed paranthesis at most 100 lines away
-  set cinoptions+=)100
-  " search for unclosed comment at most 100 lines away
-  set cinoptions+=*100
-
 " map Control-K and Control-J to previous and next buffers,
-" " respectively; this requires the 'set hid', above to 
+" " respectively; this requires the 'set hid', above to
 " " work in a good way.
 noremap <C-k> :bp<CR>
 inoremap <C-k> <Esc>:bp<CR>
@@ -133,19 +113,7 @@ endif
 
 set tags=./tags;/,~/.vim/stl.tags
 
-if filereadable("Makefile")
-  set mp=make
-elseif filereadable("wscript") || filereadable("wscript_build")
-  let wafscript = findfile("waf", ".;")
-  let &makeprg=wafscript
-elseif filereadable("SConstruct") || filereadable("SConscript")
-  set mp=scons
-else
-  let makefile = findfile("Makefile", ".;")
-  if filereadable(makefile) && filereadable(expand("~/bin/mymake"))
-    set mp=mymake
-  endif
-endif
+set mp=make
 
 " conque options
 let g:ConqueTerm_Color = 1
@@ -172,6 +140,8 @@ command -nargs=0 SetBright :call SetBright()
 
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_server_python_interpreter = '/usr/bin/python3'
+let g:ycm_auto_hover = ''
+nmap <leader>D <plug>(YCMHover)
 
 let doSetBright=$bright
 if doSetBright == 1
@@ -182,9 +152,12 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_idx_mode = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 let g:airline#extensions#tabline#fnamemod = ':t'
-let g:airline#extensions#tmuxline#enabled = 1 
+let g:airline#extensions#tmuxline#enabled = 1
 let g:airline#extensions#csv#enabled = 1
 let g:airline#extensions#csv#column_display = 'Name'
 
 let g:ctrlp_max_files = 0
-let g:ctrlp_custom_ignore = 'node_modules\|build'
+let g:ctrlp_by_filename = 1
+
+" C/C++ whitespace at EOL errors
+let c_space_errors = 1
