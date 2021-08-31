@@ -8,9 +8,6 @@
 
 " This line should not be removed as it ensures that various options are
 " properly set to work with the Vim-related packages available in Debian.
-runtime! debian.vim
-
-set rtp+=~/.vim/bundle/Vundle.vim
 
 " Vim5 and later versions support syntax highlighting. Uncommenting the next
 " line enables syntax highlighting by default.
@@ -29,6 +26,7 @@ set autowrite		" Automatically save before commands like :next and :make
 set hidden              " Hide buffers when they are abandoned
 "set mouse=a		" Enable mouse usage (all modes) in terminals
 set laststatus=2 " Status on regardless of number windows (good for airline)
+set backspace=indent,eol,start
 
 let g:UseTrueColor = 0
 if has('gui_running')
@@ -37,12 +35,11 @@ if has('gui_running')
   set guioptions-=T
   let g:UseTrueColor = 1
 else
-  if &term =~ 'tmux'
-    set t_8f=[38;2;%lu;%lu;%lum
-    set t_8b=[48;2;%lu;%lu;%lum
-    set termguicolors
-    let g:UseTrueColor = 1
-  elseif &term =~ 'xterm-256color' || &term =~ 'screen-256color'
+  if filereadable(expand('~/.truecolor'))
+    if &term =~ 'tmux'
+        set t_8f=[38;2;%lu;%lu;%lum
+        set t_8b=[48;2;%lu;%lu;%lum
+    endif
     set termguicolors
     let g:UseTrueColor = 1
   endif
@@ -52,8 +49,9 @@ if g:UseTrueColor == 1
   colorscheme northsky
   let g:airline_theme='luna'
 else
-  colorscheme elflord
-  let g:airline_theme='jellybeans'
+  let g:solarized_termcolors=256
+  colorscheme solarized
+  let g:airline_theme='solarized'
 endif
 
 set expandtab
@@ -161,3 +159,8 @@ let g:ctrlp_by_filename = 1
 
 " C/C++ whitespace at EOL errors
 let c_space_errors = 1
+
+" supertab
+set omnifunc=syntaxcomplete#Complete
+let g:SuperTabDefaultCompletionType = "context"
+let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"

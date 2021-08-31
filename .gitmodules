@@ -25,9 +25,6 @@
 [submodule "vim/pack/greg/start/vim-airline-themes"]
 	path = vim/pack/greg/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
-[submodule "vim/pack/greg/start/vim-five"]
-	path = vim/pack/greg/start/vim-five
-	url = https://github.com/tpope/vim-fugitive.git
 [submodule "vim/pack/greg/start/vim-python-pep8-indent"]
 	path = vim/pack/greg/start/vim-python-pep8-indent
 	url = https://github.com/Vimjas/vim-python-pep8-indent.git
@@ -37,12 +34,15 @@
 [submodule "vim/pack/greg/start/Conque-Shell"]
 	path = vim/pack/greg/start/Conque-Shell
 	url = https://github.com/lrvick/Conque-Shell.git
-[submodule "vim/pack/greg/start/YouCompleteMe"]
-	path = vim/pack/greg/start/YouCompleteMe
-	url = https://github.com/ycm-core/YouCompleteMe.git
 [submodule "vim/pack/greg/start/QFEnter"]
 	path = vim/pack/greg/start/QFEnter
 	url = https://github.com/yssl/QFEnter.git
 [submodule "vim/pack/greg/start/editorconfig-vim"]
 	path = vim/pack/greg/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "vim/pack/greg/start/jedi-vim"]
+	path = vim/pack/greg/start/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "vim/pack/greg/start/supertab"]
+	path = vim/pack/greg/start/supertab
+	url = https://github.com/ervandew/supertab.git
