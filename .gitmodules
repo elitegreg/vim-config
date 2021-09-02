@@ -19,9 +19,6 @@
 [submodule "vim/pack/greg/start/tmuxline.vim"]
 	path = vim/pack/greg/start/tmuxline.vim
 	url = https://github.com/edkolev/tmuxline.vim.git
-[submodule "vim/pack/greg/start/vcscommand.vim"]
-	path = vim/pack/greg/start/vcscommand.vim
-	url = https://github.com/vim-scripts/vcscommand.vim.git
 [submodule "vim/pack/greg/start/vim-airline-themes"]
 	path = vim/pack/greg/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
@@ -46,3 +43,18 @@
 [submodule "vim/pack/greg/start/supertab"]
 	path = vim/pack/greg/start/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "vim/pack/greg/start/SimpylFold"]
+	path = vim/pack/greg/start/SimpylFold
+	url = https://github.com/vim-scripts/SimpylFold.git
+[submodule "vim/pack/greg/start/syntastic"]
+	path = vim/pack/greg/start/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "vim/pack/greg/start/vim-flake8"]
+	path = vim/pack/greg/start/vim-flake8
+	url = https://github.com/nvie/vim-flake8.git
+[submodule "vim/pack/greg/start/vim-fugitive"]
+	path = vim/pack/greg/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/pack/greg/start/vim-virtualenv"]
+	path = vim/pack/greg/start/vim-virtualenv
+	url = https://github.com/jmcantrell/vim-virtualenv.git

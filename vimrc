@@ -164,3 +164,10 @@ let c_space_errors = 1
 set omnifunc=syntaxcomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
 let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
+
+let g:SimpylFold_docstring_preview = 1
+set foldlevelstart=99
+
+" pyflake8
+let python_highlight_all=1
+
