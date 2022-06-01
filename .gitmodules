@@ -28,9 +28,6 @@
 [submodule "vim/pack/greg/start/a.vim"]
 	path = vim/pack/greg/start/a.vim
 	url = https://github.com/vim-scripts/a.vim.git
-[submodule "vim/pack/greg/start/Conque-Shell"]
-	path = vim/pack/greg/start/Conque-Shell
-	url = https://github.com/lrvick/Conque-Shell.git
 [submodule "vim/pack/greg/start/QFEnter"]
 	path = vim/pack/greg/start/QFEnter
 	url = https://github.com/yssl/QFEnter.git
@@ -43,9 +40,6 @@
 [submodule "vim/pack/greg/start/supertab"]
 	path = vim/pack/greg/start/supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule "vim/pack/greg/start/SimpylFold"]
-	path = vim/pack/greg/start/SimpylFold
-	url = https://github.com/vim-scripts/SimpylFold.git
 [submodule "vim/pack/greg/start/syntastic"]
 	path = vim/pack/greg/start/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
