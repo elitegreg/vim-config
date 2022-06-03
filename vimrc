@@ -163,3 +163,11 @@ set foldlevelstart=99
 " pyflake8
 let python_highlight_all=1
 
+let g:syntastic_python_checkers = ["flake8"]
+
+if filereadable($HOME."/.work")
+  let g:ctrlp_custom_ignore = {
+      \ 'dir':  '\v[\/]((\.(git|hg|svn))|js)$',
+      \}
+endif
+
