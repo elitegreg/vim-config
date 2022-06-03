@@ -25,9 +25,6 @@
 [submodule "vim/pack/greg/start/vim-python-pep8-indent"]
 	path = vim/pack/greg/start/vim-python-pep8-indent
 	url = https://github.com/Vimjas/vim-python-pep8-indent.git
-[submodule "vim/pack/greg/start/a.vim"]
-	path = vim/pack/greg/start/a.vim
-	url = https://github.com/vim-scripts/a.vim.git
 [submodule "vim/pack/greg/start/QFEnter"]
 	path = vim/pack/greg/start/QFEnter
 	url = https://github.com/yssl/QFEnter.git
@@ -52,3 +49,18 @@
 [submodule "vim/pack/greg/start/vim-virtualenv"]
 	path = vim/pack/greg/start/vim-virtualenv
 	url = https://github.com/jmcantrell/vim-virtualenv.git
+[submodule "vim/pack/greg/start/vim-projectionist"]
+	path = vim/pack/greg/start/vim-projectionist
+	url = https://github.com/tpope/vim-projectionist
+[submodule "vim/pack/greg/start/vim-dispatch"]
+	path = vim/pack/greg/start/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch
+[submodule "vim/pack/greg/start/ale"]
+	path = vim/pack/greg/start/ale
+	url = https://github.com/dense-analysis/ale
+[submodule "vim/pack/greg/start/vim-grepper"]
+	path = vim/pack/greg/start/vim-grepper
+	url = https://github.com/mhinz/vim-grepper
+[submodule "vim/pack/greg/start/vim-test"]
+	path = vim/pack/greg/start/vim-test
+	url = https://github.com/vim-test/vim-test
