@@ -44,6 +44,7 @@ else
   let g:solarized_termcolors=256
   colorscheme solarized
   let g:airline_theme='solarized'
+  highlight PmenuSel term=reverse cterm=reverse ctermfg=0 ctermbg=187 guibg=DarkGrey
 endif
 
 set expandtab
@@ -57,7 +58,7 @@ set shiftwidth=4
 set smarttab
 set smartindent
 set softtabstop=0
-set modeline
+"set modeline
 
 " map Control-K and Control-J to previous and next buffers,
 " " respectively; this requires the 'set hid', above to
@@ -105,12 +106,6 @@ set tags=./tags;/,~/.vim/stl.tags
 
 set mp=make
 
-" conque options
-let g:ConqueTerm_Color = 1
-let g:ConqueTerm_CloseOnEnd = 1
-let g:ConqueTerm_PyVersion = 3
-let g:ConqueTerm_TERM = &term
-
 function OpenIDE()
   execute ":tabnew"
   execute ":NERDTree"
@@ -120,23 +115,6 @@ function OpenIDE()
   execute ":tabclose"
 endfunction
 command -nargs=0 OpenIDE :call OpenIDE()
-
-function SetBright()
-    execute "set background=light"
-    execute "colorscheme morning"
-    execute "AirlineTheme understated"
-endfunction
-command -nargs=0 SetBright :call SetBright()
-
-let g:ycm_confirm_extra_conf = 0
-let g:ycm_server_python_interpreter = '/usr/bin/python3'
-let g:ycm_auto_hover = ''
-nmap <leader>D <plug>(YCMHover)
-
-let doSetBright=$bright
-if doSetBright == 1
-    call SetBright()
-endif
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_idx_mode = 1
@@ -156,14 +134,7 @@ let c_space_errors = 1
 set omnifunc=syntaxcomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
 let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
-
-let g:SimpylFold_docstring_preview = 1
-set foldlevelstart=99
-
-" pyflake8
-let python_highlight_all=1
-
-let g:syntastic_python_checkers = ["flake8"]
+let g:SuperTabcrMapping = 1
 
 if filereadable($HOME."/.work")
   let g:ctrlp_custom_ignore = {
@@ -171,3 +142,18 @@ if filereadable($HOME."/.work")
       \}
 endif
 
+let test#strategy = "dispatch"
+
+let g:ale_linters = {"python": ["flake8"]}
+
+let g:jedi#show_call_signatures = "2"
+set noshowmode " for jedi call sigs
+
+nmap gs <plug>(GrepperOperator)
+xmap gs <plug>(GrepperOperator)
+
+let g:grepper = {}
+let g:grepper.tools = ["ack", "git", "grep"]
+let g:grepper.dir = "repo,cwd"
+cabbrev Ack GrepperAck
+cabbrev grep GrepperGrep

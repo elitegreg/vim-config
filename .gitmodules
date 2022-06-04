@@ -37,9 +37,6 @@
 [submodule "vim/pack/greg/start/supertab"]
 	path = vim/pack/greg/start/supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule "vim/pack/greg/start/syntastic"]
-	path = vim/pack/greg/start/syntastic
-	url = https://github.com/vim-syntastic/syntastic.git
 [submodule "vim/pack/greg/start/vim-flake8"]
 	path = vim/pack/greg/start/vim-flake8
 	url = https://github.com/nvie/vim-flake8.git
@@ -64,3 +61,6 @@
 [submodule "vim/pack/greg/start/vim-test"]
 	path = vim/pack/greg/start/vim-test
 	url = https://github.com/vim-test/vim-test
+[submodule "vim/pack/greg/start/vim-compiler-pytest"]
+	path = vim/pack/greg/start/vim-compiler-pytest
+	url = https://github.com/tartansandal/vim-compiler-pytest
