@@ -146,8 +146,8 @@ let test#strategy = "dispatch"
 
 let g:ale_linters = {"python": ["flake8"]}
 
-let g:jedi#show_call_signatures = "2"
-set noshowmode " for jedi call sigs
+"let g:jedi#show_call_signatures = "2"
+"set noshowmode " for jedi call sigs
 
 nmap gs <plug>(GrepperOperator)
 xmap gs <plug>(GrepperOperator)

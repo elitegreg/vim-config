@@ -31,9 +31,6 @@
 [submodule "vim/pack/greg/start/editorconfig-vim"]
 	path = vim/pack/greg/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
-[submodule "vim/pack/greg/start/jedi-vim"]
-	path = vim/pack/greg/start/jedi-vim
-	url = https://github.com/davidhalter/jedi-vim.git
 [submodule "vim/pack/greg/start/supertab"]
 	path = vim/pack/greg/start/supertab
 	url = https://github.com/ervandew/supertab.git
@@ -64,3 +61,10 @@
 [submodule "vim/pack/greg/start/vim-compiler-pytest"]
 	path = vim/pack/greg/start/vim-compiler-pytest
 	url = https://github.com/tartansandal/vim-compiler-pytest
+[submodule "vim/pack/greg/start/vim-vinegar"]
+	path = vim/pack/greg/start/vim-vinegar
+	url = https://github.com/tpope/vim-vinegar
+[submodule "vim/pack/greg/start/coc.nvim"]
+	path = vim/pack/greg/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim
+	branch = release
