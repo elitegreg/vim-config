@@ -47,3 +47,6 @@ install_file vimrc ~/.vimrc
 
 rm -rf ~/.vim
 ln -s `pwd`/vim ~/.vim
+
+rm -rf ~/.config/nvim
+ln -s ~/.vim-config/nvim ~/.config/nvim
