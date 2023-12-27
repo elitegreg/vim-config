@@ -29,8 +29,7 @@ set.number = true
 set.signcolumn = 'yes'
 
 -- Colors
-vim.cmd [[colorscheme northsky]]
-vim.g['airline_theme'] = 'luna'
+vim.cmd [[colorscheme nightfox]]
 
 -- Misc variables
 vim.g['c_space_errors'] = 1
