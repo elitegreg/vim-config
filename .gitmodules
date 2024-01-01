@@ -4,18 +4,9 @@
 [submodule "vim/pack/greg/start/ctrlp.vim"]
 	path = vim/pack/greg/start/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
-[submodule "vim/pack/greg/start/csv.vim"]
-	path = vim/pack/greg/start/csv.vim
-	url = https://github.com/chrisbra/csv.vim.git
 [submodule "vim/pack/greg/start/minibufexpl.vim"]
 	path = vim/pack/greg/start/minibufexpl.vim
 	url = https://github.com/fholgado/minibufexpl.vim.git
-[submodule "vim/pack/greg/start/nerdtree"]
-	path = vim/pack/greg/start/nerdtree
-	url = https://github.com/preservim/nerdtree.git
-[submodule "vim/pack/greg/start/tagbar"]
-	path = vim/pack/greg/start/tagbar
-	url = https://github.com/majutsushi/tagbar.git
 [submodule "vim/pack/greg/start/tmuxline.vim"]
 	path = vim/pack/greg/start/tmuxline.vim
 	url = https://github.com/edkolev/tmuxline.vim.git
@@ -25,9 +16,6 @@
 [submodule "vim/pack/greg/start/vim-python-pep8-indent"]
 	path = vim/pack/greg/start/vim-python-pep8-indent
 	url = https://github.com/Vimjas/vim-python-pep8-indent.git
-[submodule "vim/pack/greg/start/QFEnter"]
-	path = vim/pack/greg/start/QFEnter
-	url = https://github.com/yssl/QFEnter.git
 [submodule "vim/pack/greg/start/editorconfig-vim"]
 	path = vim/pack/greg/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
@@ -37,37 +25,6 @@
 [submodule "vim/pack/greg/start/vim-flake8"]
 	path = vim/pack/greg/start/vim-flake8
 	url = https://github.com/nvie/vim-flake8.git
-[submodule "vim/pack/greg/start/vim-fugitive"]
-	path = vim/pack/greg/start/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive.git
-[submodule "vim/pack/greg/start/vim-virtualenv"]
-	path = vim/pack/greg/start/vim-virtualenv
-	url = https://github.com/jmcantrell/vim-virtualenv.git
-[submodule "vim/pack/greg/start/vim-projectionist"]
-	path = vim/pack/greg/start/vim-projectionist
-	url = https://github.com/tpope/vim-projectionist
-[submodule "vim/pack/greg/start/vim-dispatch"]
-	path = vim/pack/greg/start/vim-dispatch
-	url = https://github.com/tpope/vim-dispatch
-[submodule "vim/pack/greg/start/ale"]
-	path = vim/pack/greg/start/ale
-	url = https://github.com/dense-analysis/ale
-[submodule "vim/pack/greg/start/vim-grepper"]
-	path = vim/pack/greg/start/vim-grepper
-	url = https://github.com/mhinz/vim-grepper
-[submodule "vim/pack/greg/start/vim-test"]
-	path = vim/pack/greg/start/vim-test
-	url = https://github.com/vim-test/vim-test
-[submodule "vim/pack/greg/start/vim-compiler-pytest"]
-	path = vim/pack/greg/start/vim-compiler-pytest
-	url = https://github.com/tartansandal/vim-compiler-pytest
-[submodule "vim/pack/greg/start/vim-vinegar"]
-	path = vim/pack/greg/start/vim-vinegar
-	url = https://github.com/tpope/vim-vinegar
-[submodule "vim/pack/greg/start/coc.nvim"]
-	path = vim/pack/greg/start/coc.nvim
-	url = https://github.com/neoclide/coc.nvim
-	branch = release
 [submodule "nvim/pack/greg/start/chadtree"]
 	path = nvim/pack/greg/start/chadtree
 	url = https://github.com/ms-jpq/chadtree.git
