@@ -5,6 +5,3 @@ map('n', '<C-k>', ':bp<CR>', options)
 map('i', '<C-k>', '<ESC>:bp<CR>', options)
 map('n', '<C-j>', ':bn<CR>', options)
 map('i', '<C-j>', '<ESC>:bn<CR>', options)
-
--- netrw support
-vim.cmd([[cabbrev e :Explore]])

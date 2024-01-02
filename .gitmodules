@@ -94,3 +94,6 @@
 [submodule "nvim/pack/greg/start/lualine.nvim"]
 	path = nvim/pack/greg/start/lualine.nvim
 	url = https://github.com/nvim-lualine/lualine.nvim.git
+[submodule "nvim/pack/greg/start/vimspector"]
+	path = nvim/pack/greg/start/vimspector
+	url = https://github.com/puremourning/vimspector.git
