@@ -94,3 +94,9 @@
 [submodule "nvim/pack/greg/start/vimspector"]
 	path = nvim/pack/greg/start/vimspector
 	url = https://github.com/puremourning/vimspector.git
+[submodule "nvim/pack/greg/start/telescope.nvim"]
+	path = nvim/pack/greg/start/telescope.nvim
+	url = https://github.com/nvim-telescope/telescope.nvim.git
+[submodule "nvim/pack/greg/start/plenary.nvim"]
+	path = nvim/pack/greg/start/plenary.nvim
+	url = https://github.com/nvim-lua/plenary.nvim.git
