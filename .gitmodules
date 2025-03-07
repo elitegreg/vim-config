@@ -76,9 +76,6 @@
 [submodule "nvim/pack/greg/start/coc.nvim"]
 	path = nvim/pack/greg/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim
-[submodule "nvim/pack/greg/start/feline.nvim"]
-	path = nvim/pack/greg/start/feline.nvim
-	url = https://github.com/freddiehaddad/feline.nvim.git
 [submodule "nvim/pack/greg/start/barbar.nvim"]
 	path = nvim/pack/greg/start/barbar.nvim
 	url = https://github.com/romgrk/barbar.nvim.git
@@ -100,3 +97,6 @@
 [submodule "nvim/pack/greg/start/plenary.nvim"]
 	path = nvim/pack/greg/start/plenary.nvim
 	url = https://github.com/nvim-lua/plenary.nvim.git
+[submodule "nvim/pack/greg/start/feline.nvim"]
+	path = nvim/pack/greg/start/feline.nvim
+	url = https://github.com/famiu/feline.nvim.git
