@@ -19,6 +19,7 @@
 [submodule "vim/pack/greg/start/editorconfig-vim"]
 	path = vim/pack/greg/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
+    ignore = dirty
 [submodule "vim/pack/greg/start/supertab"]
 	path = vim/pack/greg/start/supertab
 	url = https://github.com/ervandew/supertab.git
@@ -26,76 +27,78 @@
 	path = vim/pack/greg/start/vim-flake8
 	url = https://github.com/nvie/vim-flake8.git
 [submodule "nvim/pack/greg/start/chadtree"]
-	path = nvim/pack/greg/start/chadtree
+	path = nvim/pack/greg/opt/chadtree
 	url = https://github.com/ms-jpq/chadtree.git
+    ignore = dirty
 [submodule "nvim/pack/greg/start/ctrlp.vim"]
 	path = nvim/pack/greg/start/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
 [submodule "nvim/pack/greg/start/csv.vim"]
-	path = nvim/pack/greg/start/csv.vim
+	path = nvim/pack/greg/opt/csv.vim
 	url = https://github.com/chrisbra/csv.vim.git
 [submodule "nvim/pack/greg/start/tagbar"]
-	path = nvim/pack/greg/start/tagbar
+	path = nvim/pack/greg/opt/tagbar
 	url = https://github.com/majutsushi/tagbar.git
 [submodule "nvim/pack/greg/start/tmuxline.vim"]
-	path = nvim/pack/greg/start/tmuxline.vim
+	path = nvim/pack/greg/opt/tmuxline.vim
 	url = https://github.com/edkolev/tmuxline.vim.git
 [submodule "nvim/pack/greg/start/vim-python-pep8-indent"]
-	path = nvim/pack/greg/start/vim-python-pep8-indent
+	path = nvim/pack/greg/opt/vim-python-pep8-indent
 	url = https://github.com/Vimjas/vim-python-pep8-indent.git
 [submodule "nvim/pack/greg/start/QFEnter"]
-	path = nvim/pack/greg/start/QFEnter
+	path = nvim/pack/greg/opt/QFEnter
 	url = https://github.com/yssl/QFEnter.git
 [submodule "nvim/pack/greg/start/editorconfig-vim"]
 	path = nvim/pack/greg/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
+    ignore = dirty
 [submodule "nvim/pack/greg/start/vim-fugitive"]
-	path = nvim/pack/greg/start/vim-fugitive
+	path = nvim/pack/greg/opt/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 [submodule "nvim/pack/greg/start/vim-virtualenv"]
-	path = nvim/pack/greg/start/vim-virtualenv
+	path = nvim/pack/greg/opt/vim-virtualenv
 	url = https://github.com/jmcantrell/vim-virtualenv.git
 [submodule "nvim/pack/greg/start/vim-dispatch"]
-	path = nvim/pack/greg/start/vim-dispatch
+	path = nvim/pack/greg/opt/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch
 [submodule "nvim/pack/greg/start/ale"]
-	path = nvim/pack/greg/start/ale
+	path = nvim/pack/greg/opt/ale
 	url = https://github.com/dense-analysis/ale
 [submodule "nvim/pack/greg/start/vim-grepper"]
-	path = nvim/pack/greg/start/vim-grepper
+	path = nvim/pack/greg/opt/vim-grepper
 	url = https://github.com/mhinz/vim-grepper
 [submodule "nvim/pack/greg/start/vim-test"]
-	path = nvim/pack/greg/start/vim-test
+	path = nvim/pack/greg/opt/vim-test
 	url = https://github.com/vim-test/vim-test
 [submodule "nvim/pack/greg/start/vim-compiler-pytest"]
-	path = nvim/pack/greg/start/vim-compiler-pytest
+	path = nvim/pack/greg/opt/vim-compiler-pytest
 	url = https://github.com/tartansandal/vim-compiler-pytest
 [submodule "nvim/pack/greg/start/vim-vinegar"]
-	path = nvim/pack/greg/start/vim-vinegar
+	path = nvim/pack/greg/opt/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar
 [submodule "nvim/pack/greg/start/coc.nvim"]
-	path = nvim/pack/greg/start/coc.nvim
+	path = nvim/pack/greg/opt/coc.nvim
 	url = https://github.com/neoclide/coc.nvim
 [submodule "nvim/pack/greg/start/barbar.nvim"]
-	path = nvim/pack/greg/start/barbar.nvim
+	path = nvim/pack/greg/opt/barbar.nvim
 	url = https://github.com/romgrk/barbar.nvim.git
 [submodule "nvim/pack/greg/start/nvim-web-devicons"]
-	path = nvim/pack/greg/start/nvim-web-devicons
+	path = nvim/pack/greg/opt/nvim-web-devicons
 	url = https://github.com/nvim-tree/nvim-web-devicons.git
 [submodule "nvim/pack/greg/start/nightfox.nvim"]
 	path = nvim/pack/greg/start/nightfox.nvim
 	url = https://github.com/EdenEast/nightfox.nvim.git
 [submodule "nvim/pack/greg/start/lualine.nvim"]
-	path = nvim/pack/greg/start/lualine.nvim
+	path = nvim/pack/greg/opt/lualine.nvim
 	url = https://github.com/nvim-lualine/lualine.nvim.git
 [submodule "nvim/pack/greg/start/vimspector"]
-	path = nvim/pack/greg/start/vimspector
+	path = nvim/pack/greg/opt/vimspector
 	url = https://github.com/puremourning/vimspector.git
 [submodule "nvim/pack/greg/start/telescope.nvim"]
-	path = nvim/pack/greg/start/telescope.nvim
+	path = nvim/pack/greg/opt/telescope.nvim
 	url = https://github.com/nvim-telescope/telescope.nvim.git
 [submodule "nvim/pack/greg/start/plenary.nvim"]
-	path = nvim/pack/greg/start/plenary.nvim
+	path = nvim/pack/greg/opt/plenary.nvim
 	url = https://github.com/nvim-lua/plenary.nvim.git
 [submodule "nvim/pack/greg/start/feline.nvim"]
 	path = nvim/pack/greg/start/feline.nvim
